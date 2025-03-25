@@ -1,6 +1,6 @@
 import { Song } from "../types"
 
-const API_URL = "http://localhost:3000"
+const API_URL = "https://nidana-server.onrender.com"
 
 export const fetchSongs = async (): Promise<Song[]> => {
   const response = await fetch(`${API_URL}/songs`)
